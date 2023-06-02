@@ -1,0 +1,32 @@
+.btnApr {
+  background: linear-gradient(112.92deg, rgba(255, 255, 255, 0.32) 10.45%, rgba(255, 255, 255, 0.08) 88.73%);
+  border-radius: 16px;
+  padding: 16px 24px;
+  font-size: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+.dataApr {
+  background: linear-gradient(112.92deg, rgba(255, 255, 255, 0.36) 10.45%, rgba(255, 255, 255, 0.09) 88.73%);
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.08);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 24px;
+}
+
+.aparHover {
+  transition: 0.3s;
+  background: linear-gradient(112.92deg, rgba(255, 255, 255, 0.4) 10.45%, rgba(255, 255, 255, 0.1) 88.73%);
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.08);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  color: #434443;
+}
+
+.aprDiv:hover .aparHover {
+  height: 45%;
+  font-size: 13px;
+}/*# sourceMappingURL=style.css.map */

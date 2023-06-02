@@ -1,0 +1,8 @@
+.container {
+    .data {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 198px, 198px;
+        gap: 24px;
+    }
+}
